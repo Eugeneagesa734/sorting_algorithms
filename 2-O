@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 0(n^2)
 0(n^2)
 0(n^2)
@@ -7,3 +8,8 @@ O(n^2)
 O(n^2)
 O(n^2)
 >>>>>>> c80d9225e927ce38c9780b38ba06af7298fb2b19
+=======
+O(n^2)
+O(n^2)
+O(n^2)
+>>>>>>> refs/remotes/origin/master
