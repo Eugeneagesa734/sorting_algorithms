@@ -1,12 +1,10 @@
 #include "sort.h"
 
 /**
- * quick-sort - sorts  a list using the quick sort algorithm
- * @array: array to be sorted
- * @size: size of the array
- *
+ * insertion_sort_list - sorts a list using insertion algorithm
+ * @list: pointer to list to be sorted
  */
-void quick_sort(int *array, size_t size)
+void insertion_sort_list(listint_t **list)
 {
 
 }
