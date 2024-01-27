@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-O(n log n)
-O(n log n)
+O(nlog(n))
+O(nlog(n))
 O(n^2)
-=======
-0(nlog(n))
-0(nlog(n))
-0(n^2)
->>>>>>> 57173cdd5cdfd4477609ec10ff64282f990c6e5f

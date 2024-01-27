@@ -14,14 +14,15 @@ void quick_sort(int *array, size_t size);
 void swap_ints(int *a, int *b)
 {
 	int tmp;
+
 	tmp = *a;
 	*a = *b;
 	*b = tmp;
 }
 
 /**
- * lomuto_partition - Using the lomuto partition technique, arrange a subset of an 
- * 		      integer array with the final element acting as the pivot.
+ * lomuto_partition - Using the lomuto partition technique, arrange a
+ *	 subset of an integer array with the final element acting as the pivot.
  * @array: The array containing integers.
  * @size: The arrays size.
  * @left: The subset to be ordered first index.
@@ -76,12 +77,11 @@ void lomuto_sort(int *array, size_t size, int left, int right)
 		lomuto_sort(array, size, left, part - 1);
 		lomuto_sort(array, size, part + 1, right);
 	}
-
-
 }
+
 /**
- * quick_sort - An array of integers is sorted in an array 
- * 		using quicksort algorithm.
+ * quick_sort - An array of integers is sorted in an array
+ * using quicksort algorithm.
  * @array: An array containing integers.
  * @size: The arrays size'
  *
